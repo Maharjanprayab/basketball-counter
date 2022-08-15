@@ -1,0 +1,76 @@
+*{
+    background-color: #33333390;
+}
+section{
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    width: 500px;
+    background: transparent;
+    height: 300px;
+    color: azure;
+}
+
+section #score-board{
+    position: relative;
+    left: -50%;
+    top: -50%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: url("./basketball.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px black;
+    border: 1px solid black;
+}
+#score-board div{
+    background: transparent;
+
+}
+
+#score-board div h3{
+    background: transparent;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#score-board div input{
+    background: transparent;
+    height: 100px;
+    width: 120px;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    border-radius: 22px;
+    border: 5px solid #e67452ad;
+}
+
+section div div .btn-container{
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+}
+section div div .foul-count{
+    background: transparent;
+    display: inline-block;
+    text-align: left;
+    width: 135px;
+}
+
+section div div .foul-count span{
+    background: transparent;
+
+}
+
+
+
+.increment-btn{
+    cursor: pointer;
+}
+#foul-plus{
+    width: 50px;
+}
